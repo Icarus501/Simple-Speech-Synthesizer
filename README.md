@@ -11,3 +11,15 @@ This project is a simple speech synthesizer that converts text input into an aud
 - **Reverse Synthesis:** Provides options to reverse the speech in three ways: signal, words, and phones.
 - **File Synthesis:** Reads text from a file and synthesizes each sentence sequentially.
 - **Smooth Concatenation:** Implements cross-fading between diphones to reduce glitches.
+
+# Usage
+### Command Line Arguments
+- **-p, --phrase:** The text phrase to synthesize.
+- **-o, --outfile:** The output file to save the synthesized audio.
+- **-v, --volume:** Volume level (0 to 100).
+- **--crossfade:** Enable slightly smoother concatenation by cross-fading between diphone units.
+- **--reverse signal:** Reverse the entire waveform signal.
+- **--reverse words:** Reverse the order of words.
+- **--reverse phones:** Reverse the order of phonetic sequences.
+- **--fromfile:** Synthesize text from a specified file.
+
