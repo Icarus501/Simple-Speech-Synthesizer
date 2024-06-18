@@ -10,7 +10,7 @@ class Synth:
 
     def get_wavs(self, wav_folder):
         """Loads all the waveform data contained in WAV_FOLDER.
-        Returns a dictionary, with unit names as keys and the corresponding
+        Returns a dictionary, with unit names as the keys and the corresponding
         loaded audio data as values."""
 
         # crate a Audio Class
